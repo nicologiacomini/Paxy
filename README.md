@@ -1,10 +1,4 @@
 # Paxy
-In this project I implemented Paxos algorithm using Erlang.
-The main goal is to test Paxos in a distributed system composed by 3 proposer and 5 acceptors.
-
-## Execution
-For the test use the following command (in the Erlang shell):
-```console
-paxy:start([0,1,2]).
-```
-where [0,1,2] is the vector of the times where the proposers start to propose. 
+In this project we have implemented Paxos using Erlang.
+There are 8 processors: 3 proposers and 5 acceptors.
+The main goal of the project is to try to test and study how Paxos works in a distributed system.

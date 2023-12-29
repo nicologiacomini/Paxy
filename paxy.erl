@@ -5,7 +5,6 @@
 -define(BLUE, {0,0,255}).
 -define(GREEN, {0,255,0}).
 
-% Sleep is a list with the initial sleep time for each proposer
 start(Sleep) ->
   AcceptorNames = ["Homer", "Marge", "Bart", "Lisa", "Maggie"],
   AccRegister = [homer, marge, bart, lisa, maggie],
